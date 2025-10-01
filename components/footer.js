@@ -1,0 +1,1 @@
+const footerRoot=document.getElementById('site-footer');footerRoot.innerHTML=`<footer class='site-footer'><p>© ${new Date().getFullYear()} MiPortfolio</p><nav><a href='index.html'>Home</a> | <a href='servicios.html'>Servicios</a> | <a href='contacto.html'>Contacto</a></nav></footer>`;

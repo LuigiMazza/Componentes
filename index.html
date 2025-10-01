@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio | Mi Portfolio</title>
+  <link rel="stylesheet" href="pages/index.css"/>
+  <link rel="stylesheet" href="components/header.css"/>
+  <link rel="stylesheet" href="components/footer.css"/>
+  <link rel="stylesheet" href="components/contactForm.css"/>
+</head>
+<body>
+  <div id="site-header"></div>
+  <main>
+    <section class="hero">
+      <h1 id="home-title">Hola, soy [Tu Nombre]</h1>
+      <p id="home-subtitle">Desarrollador Web</p>
+    </section>
+    <section id="presentacion">
+      <h2>Presentación</h2>
+      <div id="presentacion-content"></div>
+    </section>
+    <section id="mis-servicios">
+      <h2>Mis servicios</h2>
+      <div id="servicios-list" class="grid"></div>
+    </section>
+    <section id="contacto">
+      <h2>Escribime</h2>
+      <div id="contact-form-root"></div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script type="module" src="components/header.js"></script>
+  <script type="module" src="components/footer.js"></script>
+  <script type="module" src="components/contactForm.js"></script>
+  <script type="module" src="pages/index.js"></script>
+</body>
+</html>

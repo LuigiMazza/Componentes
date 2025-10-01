@@ -1,0 +1,15 @@
+# Mi Portfolio 🚀
+
+Deploy: 👉 https://LuigiMazza.github.io/Componentes/
+
+## Estructura
+- index.html → Home
+- portfolio.html → Portfolio
+- servicios.html → Servicios
+- contacto.html → Contacto
+- /pages → js y css por página
+- /components → header, footer, formulario
+- /assets → logo e imágenes
+
+## CMS
+Reemplazá SPACE_ID y ACCESS_TOKEN en los JS.
